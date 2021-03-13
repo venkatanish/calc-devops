@@ -1,42 +1,42 @@
 import org.junit.*;
 import static org.junit.Assert.*;
 public class calculatorTest {
-
+    calculator calc = new calculator();
     @Test
     public void test1()
     {
-        calculator calc = new calculator();
+
         int j = calc.factorial(5);
         assertEquals(j, 120);
     }
     @Test
     public void test2()
     {
-        calculator calc = new calculator();
-        int j = calc.factorial(3);
-        assertEquals(j, 6);
+
+        int j1 = calc.factorial(3);
+        assertEquals(j1, 6);
 
     }
 
-  /*  @Test
+    @Test
     public void test3()
     {
-        calculator calc = new calculator();
-        int j = calc.sqrt(121);
-        assertEquals(j, 12);
+
+        double j2 = calc.sqrt(121);
+        assertEquals(j2, 11,0);
 
     }
 
     @Test
     public void test4()
     {
-        calculator calc = new calculator();
-        int j = calc.sqrt(121);
-        assertEquals(j, 11);
+
+        double j3 = calc.sqrt(144);
+        assertEquals(j3, 12,0);
 
     }
 
-*/
+
 
 
 }
