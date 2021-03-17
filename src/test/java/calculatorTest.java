@@ -36,6 +36,19 @@ public class calculatorTest {
 
     }
 
+    @Test
+    public void test5()
+    {
+        double j4 = calc.power(2,3);
+        assertEquals(j4, 8,0);
+    }
+    @Test
+    public void test6()
+    {
+        double j5 = calc.log(1);
+        assertEquals(j5, 0,0);
+    }
+
 
 
 
